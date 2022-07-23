@@ -284,5 +284,69 @@
     font-size: 20px;
     margin-bottom: 70px;
 }
+.industry{
+    background-color:  rgb(16, 61, 84);
+}
+.industry>h1{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.industry>div{
+    display: flex;
+    margin: auto;
+}
+.industry>div>img{
+    width: 15%;
+    margin-bottom: 150px;
+}
+#leader{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.bot{
+    display: flex;
+}
+.bot>:first-child{
+    width: 70%;
+    margin-bottom: 80px;
+}
+.bot img{
+    margin-left: 20px;
+}
+.bot button{
+    padding: 25px 50px;
+    border-radius: 50px;
+    border: none;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottom>div{
+    margin-left: 20px;
+}
+.bottom h3{
+    color: rgb(50, 50, 50);
+}
+.conDetails{
+    display: flex;
+}
+.bottom p:hover{
+    color:rgb(21, 192, 21);
+}
+.footer{
+    display: flex;
+}
+.footer>div{
+    margin-left: 20px;
+    margin-right: 80px;
+}
+.footer>p:hover{
+    color:rgb(21, 192, 21);
+}
 
 
