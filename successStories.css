@@ -1,0 +1,73 @@
+#main{
+    width: 100%;
+    /* height: 1000px; */
+    background-color: white;
+}
+#upper{
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+#upper>div>p{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 12px;
+} 
+#nav>:nth-child(1){
+    width: 30%;
+    margin-left: 10px;
+}
+#nav>:last-child{
+    width: 15%;
+    text-align: center;
+    margin-left: 20%;
+}
+#nav>div>:first-child{
+    text-align: center;
+    margin: auto;
+    padding: 8px;
+    border: 0px;
+}
+#nav>:last-child>p{
+    padding: 12px;
+    background-color: rgb(245, 189, 84);
+    border-radius: 20px; 
+}
+.success{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+} 
+.success h3{
+    color: rgb(37, 186, 37);
+}
+.success h1{
+    font-size: 50px;
+    color: rgb(34, 56, 43);
+}
+.success p{
+    font-size: 20px;
+}
+.success button{
+    padding: 25px 50px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 30px;
+}
+#btn1{
+    background-color: rgb(245, 189, 84);
+}
+#btn1:hover{
+    background-color: rgb(255, 167, 3);
+}
+#btn2:hover{
+    background-color: rgb(245, 189, 84);
+}
